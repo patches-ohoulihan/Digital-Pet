@@ -1,0 +1,171 @@
+.buttonStart {
+    position: absolute;
+    top: 50%;
+    margin-left: 40%;
+    background-color: rgba(243, 77, 0, 1);
+    border-color: white;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.hide{
+    display:none;
+    };
+
+.show{
+    display:block;
+}
+
+.buttonHunger {
+    background-color: rgb(31, 69, 192);
+    border-color: white;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+.buttonSleep {
+    background-color: rgb(128, 6, 128);
+    border-color: white;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;ß
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buttonBored {
+    background-color: rgb(255, 215, 0);
+    border-color: white;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sleep-bar {
+    width: 200px;
+    height: 25px;
+    padding: 15px;
+    margin: 10px;
+    background: rgb(128, 6, 128);
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+
+  }
+
+.hunger-bar {
+    width: 200px;
+    height: 25px;
+    padding: 15px;
+    margin: 10px;
+    background:rgb(31, 69, 192);
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+  }
+
+  .bored-bar {
+    width: 200px;
+    height: 25px;
+    padding: 15px;
+    margin: 10px;
+    background: rgb(255, 215, 0);
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-color: white;
+    border-style: solid;
+    font-weight: bold;
+  }
+
+ body {
+    background-image: url('https://i.pinimg.com/originals/2b/93/e0/2b93e0b6ded8310c25c131bd8146409a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+  .dark-mode {
+    background-image: url('https://i.ibb.co/hWtrwHB/City.jpg');
+    color: white;
+  }
+
+ .Digital-Pal {
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    animation-name: movement;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+
+@keyframes movement{
+   from{ transform: translateX(0%)}
+   to{ transform: translateX(300%)}
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 32%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.header {
+    position: fixed;
+
+}
+
+.buttonLight {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgb(190, 188, 190);
+        border-color: white;
+        color: black;
+        padding: 15px 15px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+        cursor: pointer;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+}
+
